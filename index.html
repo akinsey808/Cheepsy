@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cheepsy — AI Cost Intelligence for Mid-Market Engineering Teams</title>
+  <meta name="description" content="Token costs are about to 3x. Cheepsy prepares your AI agents before the bill hits. Harness engineering for teams that can't afford to waste." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=Martian+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav-logo" href="#">
+      <svg class="chick-nav" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- chick silhouette -->
+        <ellipse cx="16" cy="20" rx="9" ry="8" fill="currentColor"/>
+        <ellipse cx="16" cy="11" rx="6" ry="5.5" fill="currentColor"/>
+        <ellipse cx="19.5" cy="9.5" rx="2.5" ry="2" fill="currentColor"/>
+        <polygon points="22,12 25,13 22,14" fill="var(--yolk)"/>
+        <ellipse cx="13.5" cy="10.5" rx="1" ry="1" fill="var(--bg)"/>
+        <path d="M11 24 Q10 28 13 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+        <path d="M21 24 Q22 28 19 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+      </svg>
+      Cheepsy
+    </a>
+    <div class="nav-links">
+      <a href="#problem">Why now</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <a class="btn-nav" href="#demo">Request demo</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        Token costs are about to 3×
+      </div>
+
+      <h1 class="hero-h1">
+        Is your AI<br />
+        <em>ready for it?</em>
+      </h1>
+
+      <p class="hero-sub">
+        Cheepsy builds the harness that makes your AI agents dramatically more efficient —
+        before the next pricing wave hits. Harness engineering for teams that ship fast
+        and can't afford to waste tokens on context that should already be there.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn-primary" href="#demo">Get early access</a>
+        <a class="btn-ghost" href="#how">See how it works ↓</a>
+      </div>
+
+      <div class="hero-tools">
+        <span class="tools-label">Works with</span>
+        <div class="tools-row">
+          <span class="tool-badge">Claude</span>
+          <span class="tool-badge">Gemini</span>
+          <span class="tool-badge">GPT-4o</span>
+          <span class="tool-badge">Cursor</span>
+          <span class="tool-badge">Copilot</span>
+          <span class="tool-badge">+ any agent</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-mascot" aria-hidden="true">
+      <svg class="chick-hero" viewBox="0 0 260 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- shadow -->
+        <ellipse cx="130" cy="308" rx="55" ry="8" fill="var(--ink)" opacity="0.06"/>
+        <!-- body -->
+        <ellipse cx="130" cy="220" rx="72" ry="68" fill="var(--ink)"/>
+        <!-- wing left -->
+        <path d="M62 210 Q42 200 50 230 Q58 248 75 238" fill="var(--ink)"/>
+        <!-- wing right -->
+        <path d="M198 210 Q218 200 210 230 Q202 248 185 238" fill="var(--ink)"/>
+        <!-- neck -->
+        <rect x="112" y="152" width="36" height="20" rx="8" fill="var(--ink)"/>
+        <!-- head -->
+        <ellipse cx="130" cy="138" rx="46" ry="42" fill="var(--ink)"/>
+        <!-- crest feathers -->
+        <path d="M118 98 Q115 78 112 62" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+        <path d="M130 95 Q130 72 130 54" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+        <path d="M142 98 Q145 78 148 62" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+        <!-- eye -->
+        <ellipse cx="115" cy="132" rx="8" ry="9" fill="var(--bg)"/>
+        <ellipse cx="115" cy="132" rx="4" ry="5" fill="var(--ink)"/>
+        <circle cx="117" cy="130" r="1.5" fill="var(--bg)"/>
+        <!-- beak -->
+        <path d="M156 138 L172 133 L156 146 Z" fill="var(--yolk)"/>
+        <!-- feet -->
+        <line x1="112" y1="285" x2="104" y2="305" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+        <line x1="104" y1="305" x2="92" y2="308" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="104" y1="305" x2="102" y2="314" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="148" y1="285" x2="156" y2="305" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+        <line x1="156" y1="305" x2="168" y2="308" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="156" y1="305" x2="158" y2="314" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="problem" id="problem">
+    <div class="container">
+      <div class="section-label">The problem</div>
+      <h2 class="section-h2">The bill is coming.<br />Most teams aren't prepared.</h2>
+      <div class="problem-grid">
+        <div class="problem-text">
+          <p>
+            AI inference costs have a history of sharp resets. The next one is closer than you think.
+            When token prices 3×, teams running bloated, context-inefficient agents will feel it immediately —
+            in their burn rate, their latency, and their ability to ship.
+          </p>
+          <p>
+            Fortune 500s have dedicated ML platform teams to optimize this.
+            Mid-market engineering teams don't. That's the gap Cheepsy fills.
+          </p>
+        </div>
+        <ul class="pain-list">
+          <li>
+            <span class="pain-x">×</span>
+            Agents re-reading the same files every session because there's no persistent context layer
+          </li>
+          <li>
+            <span class="pain-x">×</span>
+            No structure around how your AI understands your codebase, conventions, or architecture
+          </li>
+          <li>
+            <span class="pain-x">×</span>
+            Token waste you can't see and can't measure — until the invoice lands
+          </li>
+          <li>
+            <span class="pain-x">×</span>
+            Context window full of noise; the signal your agent needs is buried or missing
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-label">How Cheepsy works</div>
+      <h2 class="section-h2">We build the harness.<br />You keep the tokens.</h2>
+      <p class="how-sub">
+        Harness engineering is the practice of structuring context around an AI agent so it
+        consistently outperforms what the model alone could do. We do the setup work —
+        skills files, custom agents, hooks, deep-linked documentation — so your agents arrive
+        informed, not confused.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Audit your agent setup</h3>
+          <p>We map how your team currently uses AI agents, where context is leaking, and what's costing you the most in wasted tokens and repeated work.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Build your harness</h3>
+          <p>We create a structured set of markdown skills, agent configs, and search hooks tailored to your repo and conventions — compatible with every major AI tool your team uses.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Agents arrive ready</h3>
+          <p>Your AI agents get project-specific context from day one of every session. Less noise. Fewer tokens. Better output. And when pricing shifts, you're already optimized.</p>
+        </div>
+      </div>
+
+      <div class="agnostic-bar">
+        <div class="agnostic-label">Tool agnostic by design</div>
+        <p class="agnostic-text">
+          Cheepsy harnesses work across Claude, Gemini, GPT-4o, Cursor, GitHub Copilot, and any agent
+          framework your team adopts next. We build in markdown — the universal substrate.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR WHO -->
+  <section class="forwho" id="forwho">
+    <div class="container">
+      <div class="section-label">Who it's for</div>
+      <h2 class="section-h2">Built for mid-market<br />engineering teams.</h2>
+      <div class="who-grid">
+        <div class="who-card who-yes">
+          <div class="who-tag">Good fit</div>
+          <ul>
+            <li>10–200 engineer teams moving fast on AI adoption</li>
+            <li>Multiple developers using AI coding assistants daily</li>
+            <li>Complex, established codebases without AI-readable structure</li>
+            <li>Teams worried about token cost as usage scales</li>
+            <li>Engineering leads who want ROI on AI tooling spend</li>
+          </ul>
+        </div>
+        <div class="who-card who-no">
+          <div class="who-tag who-tag-no">Not yet</div>
+          <ul>
+            <li>Fortune 500s with internal ML platform teams (you don't need us)</li>
+            <li>Solo developers on greenfield projects</li>
+            <li>Teams not yet using AI agents in their workflow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-h2">Straightforward.<br />No enterprise theater.</h2>
+      <div class="price-grid">
+        <div class="price-card">
+          <div class="price-tier">Starter</div>
+          <div class="price-num">Custom</div>
+          <div class="price-desc">For teams getting started with harness engineering.</div>
+          <ul class="price-list">
+            <li>Harness audit + setup for one repo</li>
+            <li>Skills library for your conventions</li>
+            <li>Agent config files (Claude, GPT, Gemini)</li>
+            <li>30-day async support</li>
+          </ul>
+          <a class="btn-price" href="#demo">Talk to us</a>
+        </div>
+        <div class="price-card price-card-featured">
+          <div class="price-tier">Growth</div>
+          <div class="price-num">Custom</div>
+          <div class="price-desc">For teams scaling AI across multiple squads.</div>
+          <ul class="price-list">
+            <li>Everything in Starter</li>
+            <li>Multi-repo harness architecture</li>
+            <li>QMD search hook setup</li>
+            <li>Deep-linked documentation layer</li>
+            <li>Quarterly harness refresh</li>
+          </ul>
+          <a class="btn-price btn-price-dark" href="#demo">Talk to us</a>
+        </div>
+      </div>
+      <p class="price-note">We're in early access. Pricing is intentionally flexible right now — we want the right teams, not the biggest ones.</p>
+    </div>
+  </section>
+
+  <!-- DEMO / SIGNUP -->
+  <section class="demo" id="demo">
+    <div class="demo-inner">
+      <div class="demo-chick" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="40" cy="52" rx="22" ry="20" fill="currentColor"/>
+          <ellipse cx="40" cy="30" rx="15" ry="14" fill="currentColor"/>
+          <path d="M35 18 Q34 12 33 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M40 17 Q40 10 40 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M45 18 Q46 12 47 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <ellipse cx="34" cy="28" rx="3" ry="3.5" fill="var(--bg)"/>
+          <ellipse cx="34" cy="28" rx="1.5" ry="2" fill="currentColor"/>
+          <path d="M51 30 L58 28 L51 34 Z" fill="var(--yolk)"/>
+        </svg>
+      </div>
+      <h2 class="demo-h2">Get ahead of the<br />cost curve.</h2>
+      <p class="demo-sub">
+        We're onboarding a small cohort of teams before Tech Week.
+        Request a demo — we'll show you exactly what a harness looks like for your stack.
+      </p>
+      <form class="signup-form" id="signupForm" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input class="form-input" type="text" name="name" placeholder="Your name" required />
+          <input class="form-input" type="email" name="email" placeholder="Work email" required />
+        </div>
+        <input class="form-input form-input-full" type="text" name="company" placeholder="Company + team size (e.g. Acme, ~40 engineers)" />
+        <button class="btn-submit" type="submit">Request demo →</button>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <span class="success-chick">🐣</span>
+        <strong>You're in.</strong> We'll reach out within 48 hours to schedule your demo.
+      </div>
+      <p class="demo-note">No pitch deck. Just a real conversation about your agent setup.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">
+      <svg class="chick-nav chick-footer" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <ellipse cx="16" cy="20" rx="9" ry="8" fill="currentColor"/>
+        <ellipse cx="16" cy="11" rx="6" ry="5.5" fill="currentColor"/>
+        <ellipse cx="19.5" cy="9.5" rx="2.5" ry="2" fill="currentColor"/>
+        <polygon points="22,12 25,13 22,14" fill="var(--yolk)"/>
+        <ellipse cx="13.5" cy="10.5" rx="1" ry="1" fill="var(--bg)"/>
+      </svg>
+      Cheepsy
+    </div>
+    <div class="footer-tagline">Harness engineering for teams that can't afford to waste.</div>
+    <div class="footer-copy">© 2026 Cheepsy. Early access.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
